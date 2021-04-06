@@ -2,7 +2,7 @@
 library(sf)
 
 # Importo los datos
-tabla_datos_shape <- st_read("av_fuente_integrada.shp")
+tabla_datos <- st_read("data/raw/nodos_carretera.shp")
 
 # Vemos los metadatos del shapefile utilizando las funciones st_geometry_type(), 
 # st_crs() and st_bbox().
